@@ -1,115 +1,95 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{steuer-etal-2023-information,
+    title = "Information-Theoretic Characterization of Vowel Harmony: A Cross-Linguistic Study on Word Lists",
+    author = "Steuer, Julius  and
+      List, Johann-Mattis  and
+      Abdullah, Badr M.  and
+      Klakow, Dietrich",
+    editor = "Beinborn, Lisa  and
+      Goswami, Koustava  and
+      Murado{\u{g}}lu, Saliha  and
+      Sorokin, Alexey  and
+      Kumar, Ritesh  and
+      Shcherbakov, Andreas  and
+      Ponti, Edoardo M.  and
+      Cotterell, Ryan  and
+      Vylomova, Ekaterina",
+    booktitle = "Proceedings of the 5th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.sigtyp-1.10/",
+    doi = "10.18653/v1/2023.sigtyp-1.10",
+    pages = "96--109",
+    selected={true},
+    abstract = "We present a cross-linguistic study of vowel harmony that aims to quantifies this phenomenon using data-driven computational modeling. Concretely, we define an information-theoretic measure of harmonicity based on the predictability of vowels in a natural language lexicon, which we estimate using phoneme-level language models (PLMs). Prior quantitative studies have heavily relied on inflected word-forms in the analysis on vowel harmony. On the contrary, we train our models using cross-linguistically comparable lemma forms with little or no inflection, which enables us to cover more under-studied languages. Training data for our PLMs consists of word lists offering a maximum of 1000 entries per language. Despite the fact that the data we employ are substantially smaller than previously used corpora, our experiments demonstrate the neural PLMs capture vowel harmony patterns in a set of languages that exhibit this phenomenon. Our work also demonstrates that word lists are a valuable resource for typological research, and offers new possibilities for future studies on low-resource, under-studied languages."
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{gautam-etal-2024-winopron,
+    title = "{W}ino{P}ron: Revisiting {E}nglish {W}inogender Schemas for Consistency, Coverage, and Grammatical Case",
+    author = "Gautam, Vagrant  and
+      Steuer, Julius  and
+      Bingert, Eileen  and
+      Johns, Ray  and
+      Lauscher, Anne  and
+      Klakow, Dietrich",
+    editor = "Ogrodniczuk, Maciej  and
+      Nedoluzhko, Anna  and
+      Poesio, Massimo  and
+      Pradhan, Sameer  and
+      Ng, Vincent",
+    booktitle = "Proceedings of the Seventh Workshop on Computational Models of Reference, Anaphora and Coreference",
+    month = nov,
+    year = "2024",  
+    address = "Miami",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.crac-1.6/",
+    doi = "10.18653/v1/2024.crac-1.6",
+    pages = "52--66",
+    abstract = "While measuring bias and robustness in coreference resolution are important goals, such measurements are only as good as the tools we use to measure them. Winogender Schemas (Rudinger et al., 2018) are an influential dataset proposed to evaluate gender bias in coreference resolution, but a closer look reveals issues with the data that compromise its use for reliable evaluation, including treating different pronominal forms as equivalent, violations of template constraints, and typographical errors. We identify these issues and fix them, contributing a new dataset: WinoPron. Using WinoPron, we evaluate two state-of-the-art supervised coreference resolution systems, SpanBERT, and five sizes of FLAN-T5, and demonstrate that accusative pronouns are harder to resolve for all models. We also propose a new method to evaluate pronominal bias in coreference resolution that goes beyond the binary. With this method, we also show that bias characteristics vary not just across pronoun sets (e.g., \textit{he} vs. \textit{she}), but also across surface forms of those sets (e.g., \textit{him} vs. \textit{his})."
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@inproceedings{steuer_large_2023,
+	address = {Singapore},
+	title = {:trophy: Large {GPT}-like {Models} are {Bad} {Babies}: {A} {Closer} {Look} at the {Relationship} between {Linguistic} {Competence} and {Psycholinguistic} {Measures}},
+	url = {https://aclanthology.org/2023.conll-babylm.12},
+	doi = {10.18653/v1/2023.conll-babylm.12},
+	booktitle = {Proceedings of the {BabyLM} {Challenge} at the 27th {Conference} on {Computational} {Natural} {Language} {Learning}},
+	publisher = {Association for Computational Linguistics},
+	author = {Steuer, Julius and Mosbach, Marius and Klakow, Dietrich},
+	editor = {Warstadt, Alex and Mueller, Aaron and Choshen, Leshem and Wilcox, Ethan and Zhuang, Chengxu and Ciro, Juan and Mosquera, Rafael and Paranjabe, Bhargavi and Williams, Adina and Linzen, Tal and Cotterell, Ryan},
+	month = dec,
+	year = {2023},
+	pages = {142--157},
   selected={true},
-  inspirehep_id = {3255}
+  abstract = "Research on the cognitive plausibility of language models (LMs) has so far mostly concentrated on modelling psycholinguistic response variables such as reading times, gaze durations and N400/P600 EEG signals, while mostly leaving out the dimension of what Mahowald et al. (2023) described as formal and functional linguistic competence, and developmental plausibility. We address this gap by training a series of GPT-like language models of different sizes on the strict version of the BabyLM pretraining corpus, evaluating on the challenge tasks (BLiMP, GLUE, MSGS) and an additional reading time prediction task. We find a positive correlation between LM size and performance on all three challenge tasks, with different preferences for model width and depth in each of the tasks. In contrast, a negative correlation was found between LM size and reading time fit of linear mixed-effects models using LM surprisal as a predictor, with the second-smallest LM achieving the largest log-likelihood reduction over a baseline model without surprisal. This suggests that modelling processing effort and linguistic competence may require an approach different from training GPT-like LMs on a developmentally plausible corpus."
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{steuer_modeling_2024,
+	address = {Torino, Italia},
+	title = {Modeling {Diachronic} {Change} in {English} {Scientific} {Writing} over 300+ {Years} with {Transformer}-based {Language} {Model} {Surprisal}},
+	url = {https://aclanthology.org/2024.bucc-1.2},
+	booktitle = {Proceedings of the 17th {Workshop} on {Building} and {Using} {Comparable} {Corpora} ({BUCC}) @ {LREC}-{COLING} 2024},
+	publisher = {ELRA and ICCL},
+	author = {Steuer, Julius and Krielke, Marie-Pauline and Fischer, Stefan and Degaetano-Ortlieb, Stefania and Mosbach, Marius and Klakow, Dietrich},
+	editor = {Zweigenbaum, Pierre and Rapp, Reinhard and Sharoff, Serge},
+	month = may,
+	year = {2024},
+	pages = {12--23},
+	file = {Full Text:/Users/julius/Zotero/storage/P2UUW8GK/Steuer et al. - 2024 - Modeling Diachronic Change in English Scientific Writing over 300+ Years with Transformer-based Lang.pdf:application/pdf},
+  abstract = "This study presents an analysis of diachronic linguistic changes in English scientific writing, utilizing surprisal from transformer-based language models. Unlike traditional n-gram models, transformer-based models are potentially better at capturing nuanced linguistic changes such as long-range dependencies by considering variable context sizes. However, to create diachronically comparable language models there are several challenges with historical data, notably an exponential increase in no. of texts, tokens per text and vocabulary size over time. We address these by using a shared vocabulary and employing a robust training strategy that includes initial uniform sampling from the corpus and continuing pre-training on specific temporal segments. Our empirical analysis highlights the predictive power of surprisal from transformer-based models, particularly in analyzing complex linguistic structures like relative clauses. The models’ broader contextual awareness and the inclusion of dependency length annotations contribute to a more intricate understanding of communicative efficiency. While our focus is on scientific English, our approach can be applied to other low-resource scenarios.",
+  selected={true},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{talamo_pronouns,
+	title = {They saw it, onu, 它, coming: {An} information theoretic study of cross-linguistic variation in personal pronouns,},
+	journal = {Linguistics},
+    year = {2025},
+    pages = {to appear},
+	author = {Talamo, Luigi and Steuer, Julius and Verkerk, Annemarie},
+  abstract = "Personal pronouns share with other nominal constructions, such as common nouns and demonstratives, the basic function of selecting and identifying a referent. However, they are special in that they depend on the context and are inherently rooted in interlocutor roles (speaker, addressee, other). As proxies for information that is already known to the hearer, we could expect their usage to be similar across different languages, as well as little variation between pronouns in the same language. But as is known from previous studies, many languages of the world do not require overt independent personal pronouns in subject position; and different pronouns have very different roles in spoken and written text, depending most importantly on person and case. In this study, we aim to capture the predictability of personal pronouns using the information theoretic measure of surprisal, which characterizes the information value of a word given its preceding context. Our data come from mini-CIEP+, a parallel corpus of literary texts, from which we sample 17 languages from 8 language families. We compute the surprisal of personal pronouns in these languages at different context sizes, using mGPT language models. Then, linear mixed effects models are fitted with surprisal-based response variables and a range of independent variables, including the frequency of the pronoun and various morpho-syntactic parameters (syntactic role, number, person, and others). These parameters are extracted from grammars and from mini-CIEP+, which is automatically annotated in the Universal Dependencies framework using pre-trained models. We find universal effects of frequency and near-universal effects of position on surprisal, but other variable estimates differ widely between languages both in terms of which variables are relevant and their polarity. We conclude by stating that this type of quantitative study could shed further light on the usage of different types of nominal referents across languages, for which corpus-based typology is ideally positioned."
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
