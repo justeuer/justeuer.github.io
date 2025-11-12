@@ -51,7 +51,7 @@ scholar_userid: oE5SFXgAAAAJ # your Google Scholar ID
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 work: # can be any name here other than the ones already defined above
-  logo: assets/img/hits-logo.svg # can be png, svg, jpg
+  logo: assets/img/hits_logo.svg # can be png, svg, jpg
   title: HITS
   url: mailto:julius.steuer@h-its.org
   # url: https://www.alberteinstein.com/
