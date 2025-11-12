@@ -394,6 +394,9 @@ ninja.data = [{
             },},{id: "news-i-started-my-new-position-as-postdoc-at-the-nlp-group-at-the-heidelberg-institute-for-theoretical-studies-hits-working-with-michael-strube",
           title: 'I started my new position as postdoc at the NLP group at the...',
           description: "",
+          section: "News",},{id: "news-i-finally-made-a-website",
+          title: 'I finally made a website!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
