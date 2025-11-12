@@ -28,12 +28,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an NLP researcher and linguist who attempts to reconcile two souls which, alas, are residing in my breast. I am interested in **information-theoretic** and **quantitative** approaches to typology, phonology and psycholinguistics, which has been the focus of my PhD at Saarland University. On the technical side this has involved pre-training language models on (very) small, developmentally plausible, and parallel corpora. 
+I am interested in **information-theoretic** and **quantitative** approaches to typology, phonology and psycholinguistics, which has been the focus of my PhD at Saarland University. On the technical side this has involved pre-training language models on diachronic, (very) small, developmentally plausible, and parallel corpora. I have also used off-the-shelf "large" heavily multilingual models for surprisal estimates on parallel data.
 
 In my postdoc I want to use **(mechanistic) interpretability** methods to identify shared structure in multilingual langauge models, ideally relating these structures to linguistic theory.
-
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->

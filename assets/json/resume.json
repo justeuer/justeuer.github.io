@@ -5,7 +5,7 @@
     "image": "",
     "email": "julius.steuer@protonmail.com",
     // "phone": "(912) 123-4567",
-    "url": "https://justeuer@github.io",
+    // "url": "https://justeuer@github.io",
     "summary": "",
     "location": {
       // "address": "Schloss-Wolfsbrunnenweg 35",
@@ -25,11 +25,12 @@
   "work": [
     {
       "name": "Heidelberg Institute for Theoretical Studies",
+      "location": "Heidelberg",
       "position": "Postdoc",
       "url": "https://www.h-its.org/",
       "startDate": "2025-10-01",
       "endDate": "2027-09-30",
-      "summary": "I'm a postdoc at the NLP group, working _with_ Michael Strube.",
+      "summary": "I'm a postdoc at the NLP group, working with Michael Strube.",
       "highlights": ["Multilingual Coreference Resolution", "Information Status & Surprisal"]
     }
   ],
@@ -48,14 +49,15 @@
   "education": [
     {
       "institution": "Saarland University",
-      "location": "Saarbrücken, Saarland",
+      "location": "Saarbrücken",
       "url": "https://www.uni-saarland.de/en/home.html",
-      "area": "Computational Linguistics. Thesis title: Developmental, Typological, and Diachronic Applications of Cognitively Plausible Language Models",
+      "area": "Computational Linguistics",
       "studyType": "PhD",
       "startDate": "2022-10-01",
-      "endDate": "2025-09-30"
+      "endDate": "2025-09-30",
       // "score": "10",
       // "courses": ["Theory of Relativity"]
+      "courses": ["Thesis: Developmental, Typological, and Diachronic Applications of Cognitively Plausible Language Models"]
     }
   ],
   // "awards": [
@@ -120,7 +122,13 @@
       "summary": "We explored properties of personal pronouns with surprisal in miniciep+, a multilingual parallel corpus created by Annemarie Verkerk's group."
     },
     {
-      "name": "Large GPT-like Models are Bad Babies: A Closer Look at the Relationship between Linguistic Competence and Psycholinguistic Measures",
+      "name": "WinoPron: Revisiting English Winogender Schemas for Consistency, Coverage, and Grammatical Case",
+      "publisher": "In Proceedings of the Seventh Workshop on Computational Models of Reference, Anaphora and Coreference,",
+      "releaseDate": "2024-11",
+      "url": "https://aclanthology.org/2024.crac-1.6/"
+    },
+    {
+      "name": ":trophy: Large GPT-like Models are Bad Babies: A Closer Look at the Relationship between Linguistic Competence and Psycholinguistic Measures",
       "publisher": "Proceedings of the 5th Workshop on Research in Computational Linguistic Typology and Multilingual NLP",
       "releaseDate": "2023-12",
       "url": "https://aclanthology.org/2023.conll-babylm.12/"
@@ -164,27 +172,27 @@
     {
       "language": "German",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-leaf"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
+      "icon": "fa-solid fa-leaf"
     },
     {
       "language": "French",
-      "icon": "",
+      "icon": "fa-solid fa-leaf",
       "fluency": "Advanced"
     },
     {
       "language": "Spanish",
       "fluency": "Advanced",
-      "icon": ""
+      "icon": "fa-solid fa-leaf"
     },
     {
       "language": "Latin",
       "fluency": "Advanced",
-      "icon": ""
+      "icon": "fa-solid fa-leaf"
     }
   ],
   "interests": [

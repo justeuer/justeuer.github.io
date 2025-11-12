@@ -109,6 +109,9 @@ GEM
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
+    html-pipeline-negarmoji (0.1.6)
+      html-pipeline (~> 2.14)
+      negarmoji (~> 0.1.10)
     htmlcompressor (0.4.0)
     http_parser.rb (0.8.0)
     httparty (0.23.1)
@@ -156,6 +159,11 @@ GEM
       jekyll (>= 3.5)
       json-minify (~> 0.0.3)
       uglifier (~> 4.1)
+    jekyll-openmoji (0.1.6)
+      html-pipeline (~> 2.14)
+      html-pipeline-negarmoji (~> 0.1.6)
+      jekyll (>= 3.0, < 5.0)
+      negarmoji (~> 0.1.10)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-regex-replace (1.1.0)
@@ -204,6 +212,7 @@ GEM
       bigdecimal (~> 3.1)
     namae (1.2.0)
       racc (~> 1.7)
+    negarmoji (0.1.10)
     nokogiri (1.18.9-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.9-aarch64-linux-musl)
@@ -300,6 +309,7 @@ DEPENDENCIES
   jekyll-jupyter-notebook
   jekyll-link-attributes
   jekyll-minifier
+  jekyll-openmoji
   jekyll-paginate-v2
   jekyll-regex-replace
   jekyll-scholar
