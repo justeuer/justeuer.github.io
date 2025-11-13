@@ -30,4 +30,4 @@ latest_posts:
 
 I am interested in **information-theoretic** and **quantitative** approaches to typology, phonology and psycholinguistics, which has been the focus of my PhD at Saarland University. On the technical side this has involved pre-training language models on diachronic, (very) small, developmentally plausible, and parallel corpora. I have also used off-the-shelf "large" heavily multilingual models for surprisal estimates on parallel data.
 
-In my postdoc I want to use **(mechanistic) interpretability** methods to identify shared structure in multilingual langauge models, ideally relating these structures to linguistic theory.
+In my postdoc I want to use **(mechanistic) interpretability** methods to identify shared structure in multilingual language models, ideally relating these structures to linguistic theory.
